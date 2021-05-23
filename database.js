@@ -2,8 +2,8 @@ import mysql from 'mysql'
 
 const connection=mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: '',
+    user: 'admin',
+    password: 'admin',
     database: 'matrinomial_db'
 })
 export const connectt= async ()=>   {
