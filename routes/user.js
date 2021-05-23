@@ -1,4 +1,4 @@
-import * as db from '../database.js'
+import db from '../database.js'
 import express from 'express'
 
 const router=express.Router()
